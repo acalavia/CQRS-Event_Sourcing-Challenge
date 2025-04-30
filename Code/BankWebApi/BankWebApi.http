@@ -1,0 +1,22 @@
+@BankWebApi_HostAddress = https://localhost:7128
+  
+
+POST {{BankWebApi_HostAddress}}/bank/accounts
+
+1000
+
+ 
+@id=string
+@id = "account-825e1ddb-b397-47a5-9c13-83f1408a7396"
+GET {{BankWebApi_HostAddress}}/bank/accounts/{{id}}/balance
+
+###
+
+GET {{BankWebApi_HostAddress}}/bank/accounts/account-9ee882f2-8a53-4a23-a6fd-580ba6196443/balance
+
+###
+ 
+
+GET {{BankWebApi_HostAddress}}/bank/accounts
+
+###
